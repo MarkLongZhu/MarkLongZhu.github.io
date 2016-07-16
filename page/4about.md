@@ -10,7 +10,7 @@ icon: heart
 
 ## 关于我
 
-    目前就职岗位为Android开发
+目前就职岗位为Android开发
 
 
 ## 联系我

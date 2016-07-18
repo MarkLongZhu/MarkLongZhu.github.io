@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "前端的一些资料和工具"
-date:   2015-05-18 14:06:05
-categories: Tools
-tags: tools CSS reveal 配色
-excerpt: 记录一些好用的前端工具和框架。
+title:  "项目需求分析模板定义"
+date:   2016-07-15 22:14:54
+categories: 项目管理
+tags: 项目管理
+
 ---
 
 * content

@@ -2,8 +2,8 @@
 layout: post
 title:  "启动第一个Activity"
 date:   2016-07-22 22:14:54
-categories:  Android
-tags: Android
+categories:  从头学Android
+tags: 从头学Android
 ---
 * content
 {:toc}

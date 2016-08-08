@@ -56,10 +56,13 @@ tags: 从头学Android
 ![](http://oajxivjud.bkt.clouddn.com/startAty12.png)
 
 #### 启动虚拟机设备
+
 ![](http://oajxivjud.bkt.clouddn.com/startAty13.png)
 
 ![](http://oajxivjud.bkt.clouddn.com/startAty15.png)
+
 #### 启动app程序
+
 ![](http://oajxivjud.bkt.clouddn.com/startAty16.png)
 
 ![](http://oajxivjud.bkt.clouddn.com/startAty17.png)

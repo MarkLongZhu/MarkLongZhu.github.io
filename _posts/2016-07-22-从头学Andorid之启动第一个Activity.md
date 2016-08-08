@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "第一个Activity"
+title:  "启动第一个Activity"
 date:   2016-07-22 22:14:54
 categories:  Android
 tags: Android

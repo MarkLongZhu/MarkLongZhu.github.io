@@ -68,6 +68,7 @@ tags: 从头学Android
 ![](http://oajxivjud.bkt.clouddn.com/startAty17.png)
 
 #### 启动成功
+
 ![](http://oajxivjud.bkt.clouddn.com/startAty18.png)
 
 

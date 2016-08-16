@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
 ##### 运行结果：
 
-<iframe height=680 width=400 src="http://oajxivjud.bkt.clouddn.com/startActivity.gif"></iframe >
+<iframe height=680 width=400 src="http://oajxivjud.bkt.clouddn.com/startActivity.gif">
 
 
 

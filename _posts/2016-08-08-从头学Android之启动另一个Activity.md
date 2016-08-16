@@ -30,16 +30,21 @@ tags: 从头学Android
 ![](http://oajxivjud.bkt.clouddn.com/4.newActivity.png)
 
 
-如果你这个时候到 **”manifests/AndroidManifest.xml“** 文件中看下，会发现多出了一行
-代码
+如果你这个时候到 **”manifests/AndroidManifest.xml“** 文件中看下，会发现多出了一行代码
+
+
 ``` xml
 		<activity android:name=".Main2Activity"></activity>
 ```
+
+
 这行代码的主要作用就是告诉应用，一个新的activity的诞生。
 
 新的Activity也建好了，接下来我们就要进入今天的主题了。
 
 首先在 **activity_main.xml**文件中拉进来一个按钮，它的作用就为了单击时启动第二个activity
+
+
 ``` xml
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -56,6 +61,8 @@ tags: 从头学Android
             android:text="启动第二个Activity" />
     </LinearLayout>
 ```
+
+
 同时为了区分两个Activity,我们在 **activity_main2.xml** 文件中增加一个文本，修改之后内容如下：
 
 ``` xml
@@ -78,6 +85,8 @@ tags: 从头学Android
 
 
 在 **MainActivity.java** 中实例化按钮并添加单击事件
+
+
 ``` java
 public class MainActivity extends AppCompatActivity {
         @Override

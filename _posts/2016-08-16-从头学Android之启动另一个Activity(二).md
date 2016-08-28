@@ -32,7 +32,6 @@ tags: 从头学Android
     tools:context="com.marklogzhu.learn.myapplication.MainActivity">
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -52,7 +51,6 @@ tags: 从头学Android
     </LinearLayout>
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -83,7 +81,6 @@ tags: 从头学Android
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="登陆" />
-
     </LinearLayout>
 
 </LinearLayout>
@@ -100,7 +97,6 @@ tags: 从头学Android
     android:orientation="vertical">
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -119,7 +115,6 @@ tags: 从头学Android
     </LinearLayout>
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -207,6 +202,7 @@ public class Main2Activity extends AppCompatActivity {
 ## 传递对象数据
 
 传递对象数据有三种方法
+
 * Serializable的接口
 * Parcelable接口
 * JSON字符串传递

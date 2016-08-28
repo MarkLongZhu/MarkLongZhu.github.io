@@ -18,7 +18,7 @@ tags: 从头学Android
 
 ##### 编辑xml文件
 
-在 ** activity_main.xml **中添加两个 EditText 控件用以接收用户输入的内容
+在 **activity_main.xml** 中添加两个 EditText 控件用以接收用户输入的内容
 
 ``` xml
 

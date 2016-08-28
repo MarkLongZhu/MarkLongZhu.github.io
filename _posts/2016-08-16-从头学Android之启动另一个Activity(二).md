@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "启动另一个Activity(二)"
-date:   2016-07-22 22:14:54
+date:   2016-08-26 23:30:00
 categories:  从头学Android
 tags: 从头学Android
 ---
@@ -19,6 +19,7 @@ tags: 从头学Android
 ##### 编辑xml文件
 
 在 ** activity_main.xml **中添加两个 EditText 控件用以接收用户输入的内容
+
 ``` xml
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -136,13 +137,12 @@ tags: 从头学Android
             android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>
+
 ```
 
 ## 传递基础数据
 
-##### java文件编辑
-
-启动端 **MainActivity.java** 编辑
+##### 启动端 **MainActivity.java** 编辑
 
 ``` java
 
@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-接收端 **MainActivity2.java** 编辑
+##### 接收端 **MainActivity2.java** 编辑
 
 ``` java
 
@@ -198,9 +198,11 @@ public class Main2Activity extends AppCompatActivity {
 }
 
 ```
+
 #### 运行程序
 
 ![](http://oajxivjud.bkt.clouddn.com/startDataActivity.gif)
+
 
 ## 传递对象数据
 
@@ -240,6 +242,7 @@ public class UserBean implements Serializable{
     }
 }
 ```
+
 ###### 启动端 MainActivity.java 代码
 
 ``` java
@@ -275,7 +278,9 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+
 ###### 接收端 Main2Activity.java 代码
+
 ``` java
 
 public class Main2Activity extends AppCompatActivity {
@@ -302,6 +307,7 @@ public class Main2Activity extends AppCompatActivity {
 }
 
 ```
+
 #### Parcelable 接口
 
 ###### 增加一个用户实体类并实现Serializable的接口
@@ -368,6 +374,7 @@ public class UserBean implements Parcelable {
 }
 
 ```
+
 ###### 启动端 MainActivity.java 代码
 
 ``` java
@@ -403,7 +410,9 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+
 ###### 接收端 Main2Activity.java 代码
+
 ``` java
 
 public class Main2Activity extends AppCompatActivity {
@@ -476,6 +485,7 @@ public class UserBean {
 }
 
 ```
+
 ###### 启动端 MainActivity.java 代码
 
 ``` java
@@ -511,7 +521,9 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
 ###### 接收端 Main2Activity.java 代码
+
 ``` java
 
 public class Main2Activity extends AppCompatActivity {
@@ -540,6 +552,7 @@ public class Main2Activity extends AppCompatActivity {
 ```
 
 #### 总结
+
 在这几种方法中 **转换为字符串** 的速度是最慢的。**Seralizable** 次之，**Parcelable** 比 **Seralizable** 快10倍。所以从性能上考虑，建议优先选择Parcelable。但是Parcelable相比其他，需要编写大量重复的模板代码。但是可以通过第三方类库的形式减化操作。
 
 

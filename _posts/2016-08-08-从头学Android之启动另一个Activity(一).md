@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "启动另一个Activity"
+title:  "启动另一个Activity(一)"
 date:   2016-07-22 22:14:54
 categories:  从头学Android
 tags: 从头学Android

@@ -115,7 +115,6 @@ public class MainActivity extends AppCompatActivity {
     android:orientation="vertical">
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -179,7 +178,6 @@ public class Main2Activity extends AppCompatActivity {
 
     private void initViews() {
         this.sendDataEditText = (EditText) super.findViewById(R.id.et_sendData);
-
     }
 }
 

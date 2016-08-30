@@ -50,7 +50,6 @@ tags: 从头学Android
         android:layout_height="wrap_content"
         android:text="启动Activity" />
 
-
 </LinearLayout>
 
 ```
@@ -137,7 +136,6 @@ public class MainActivity extends AppCompatActivity {
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="返回上一个Activity" />
-
 
 </LinearLayout>
 
